@@ -1,3 +1,15 @@
+.publication-video,
+.video-thumbnail {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.video-thumbnail img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 1rem; /* 可选，增加视频和缩略图间距 */
+}
 
 .container-teasor {
     display: flex;
