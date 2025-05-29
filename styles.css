@@ -6,7 +6,7 @@
         background-position: 100% center;
     }
 }
-header {
+HomePageHeader {
     position: relative;
     background: url('static/images/MMR_V_background_00.png') repeat-x center center;
     background-size: cover;
