@@ -33,7 +33,7 @@ header {
     padding: 320px 0;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    animation: scrollBackground 50s linear infinite;
+    animation: scrollBackground 42s linear infinite;
 }
 
 header::before {
