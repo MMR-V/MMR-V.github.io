@@ -94,7 +94,7 @@
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">
               <img src="static/images/LOGO_v3.png" alt="Logo" style="height: 1em; vertical-align: middle; margin-right: 0.0em;">
-              MMR-V: <em>Can Your MLLMs "Think with Video"?</em> A Benchmark for Multimodal Deep Reasoning in Videos
+              MMR-V: <em>What's Left Unsaid?</em> A Benchmark for Multimodal Deep Reasoning in Videos
             </h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
@@ -218,6 +218,8 @@
           <p>
             The sequential structure of videos poses a challenge to the ability of multimodal large language models (MLLMs) to locate multi-frame evidence and conduct multimodal reasoning. However, existing video benchmarks mainly focus on understanding tasks, which only require models to match frames mentioned in the question (hereafter referred to as "question frame") and perceive a few adjacent frames. To address this gap, we propose <b>MMR-V: A Benchmark for Multimodal Deep Reasoning in Videos.</b> The benchmark is characterized by the following features. <b>(1) Long-range, multi-frame reasoning</b>: Models are required to infer and analyze evidence frames that may be far from the question frame. <b>(2) Beyond perception</b>: Questions cannot be answered through direct perception alone but require reasoning over hidden information. <b>(3) Reliability</b>: All tasks are manually annotated, referencing extensive real-world user understanding to align with common perceptions. <b>(4) Confusability</b>: Carefully designed distractor annotation strategies to reduce model shortcuts. MMR-V consists of 317 videos and 1,257 tasks. Our experiments reveal that current models still struggle with multi-modal reasoning; even the best-performing model, o4-mini, achieves only 52.5% accuracy. Additionally, current reasoning enhancement strategies (Chain-of-Thought and scaling test-time compute) bring limited gains. Further analysis indicates that the CoT demanded for multi-modal reasoning differs from it in textual reasoning, which partly explains the limited performance gains. We hope that MMR-V can inspire further research into enhancing multi-modal reasoning capabilities.
           </p>
+          <br></br>
+          🧠 <strong>With MMR-V, we aim to explore whether MLLMs can "think with videos" and mine evidence from long-span, multi-frame video information.</strong>
         </div>
       </div>
     </div>
